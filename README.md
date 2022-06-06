@@ -3,7 +3,9 @@
 Simple server that periodically scrapes monit status and exports checks information via HTTP for Prometheus.
 
 Build it:
-```bash
+```
+go get
+go mod tidy
 go build
 ```
 
